@@ -15,3 +15,4 @@
     - copy:
         content: "{{ config.stdout[0] }}"
         dest: "/Users/mymac/Desktop/Ansible/Backup/{{ inventory_hostname }} {{ lookup('pipe', 'date +%Y%m%d%H%M%S') }}.txt"
+        Print ("done")
